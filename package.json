@@ -8,7 +8,7 @@
     "serve": "ts-node --transpile-only src/main.ts",
     "lint": "eslint ./src --ext .ts",
     "format": "prettier --write src/",
-    "build": "npx ts build",
+    "build": "npx -y ts build",
     "start": "node dist/main.js"
   },
   "author": "ISUCON12 core team / Node.js porting by acidlemon",
